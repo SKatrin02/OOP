@@ -1,4 +1,9 @@
-﻿#include <iostream>
+//
+// Created by Strutynska Katerina on 06.09.2022
+// Laboratory work №4
+// Variant №16-1
+//
+#include <iostream>
 #include <cstdlib>
 using namespace std;
 int i;
