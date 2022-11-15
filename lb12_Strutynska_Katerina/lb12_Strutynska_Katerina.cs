@@ -74,25 +74,25 @@ namespace lb12_Strutynska_Katerina
             Complex c1 = new Complex();
             Complex c2 = new Complex();
             // Задаємо значення дійсним і уявним частинам.
-            Console.Write("Введите целую часть первого комплексного числа: ");
+            Console.Write("Enter the integer part of the first complex number: ");
             c1.R = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Введите мнимую часть первого комплексного числа: ");
+            Console.Write("Enter the imaginary part of the first complex number: ");
             c1.I = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Введите целую часть второго комплексного числа: ");
+            Console.Write("Enter the integer part of the second complex number: ");
             c2.R = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Введите мнимую часть первого комплексного числа: ");
+            Console.Write("Enter the imaginary part of the second complex number: ");
             c2.I = Convert.ToDouble(Console.ReadLine());
             Console.Clear();
             // Показ заданих значень.
-            Console.WriteLine("Введенные комплексные числа: ");
+            Console.WriteLine("Entered complex numbers: ");
             c1.PrintLine(c1);
             c2.PrintLine(c2);
-            Console.WriteLine("\nДля продолжения нажмите [Enter]");
+            Console.WriteLine("\nTo continue, press [Enter]");
             Console.ReadLine();
             Console.Clear();
             // Розрахунок суми двох комплексних чисел.
-            Console.WriteLine("Сложение комплексных чисел:       {0} + {1}i", (c1 + c2).R, (c1 + c2).I);
-            Console.WriteLine("\nДля выхода из программы нажмите [Enter]");
+            Console.WriteLine("The addition of complex numbers:       {0} + {1}i", (c1 + c2).R, (c1 + c2).I);
+            Console.WriteLine("\nTo exit the program, press [Enter]");
             Console.ReadLine();
         }
     }
