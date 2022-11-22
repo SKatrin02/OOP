@@ -22,7 +22,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ConsoleApplication24
+namespace lb13_Strutynska_Katerina
 {
     //Клас Квітка
     public abstract class Flower : IComparable<Flower>
